@@ -28,4 +28,4 @@ int ethernet_driver_send(const uint8_t* data, uint32_t len);
 /* Ethernet driver receive function */
 int ethernet_driver_receive(uint8_t* data, uint32_t len);
 
-#endif /* ETHERNET_DRIVER_H */
+#endif /* ETHERNET_DRV_H */
