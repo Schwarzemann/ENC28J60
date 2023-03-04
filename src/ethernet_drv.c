@@ -14,7 +14,7 @@
 #include <netpacket/packet.h>
 #include <net/ethernet.h>
 
-#include "ethernet_driver.h"
+#include "include/ethernet_drv.h"
 
 #define ETH_BUF_SIZE 1024
 
