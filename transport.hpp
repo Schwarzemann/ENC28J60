@@ -102,6 +102,8 @@ struct MergedACK {
   };
 };
 
+#include "layerprotocol.h"
+
 #define MAX_PACKET_PAYLOAD (MAX_PACKET_SIZE - IP_HEADER_SIZE - TCP_HEADER_SIZE - ETH_HEADER_SIZE)
 
 // Global functions
